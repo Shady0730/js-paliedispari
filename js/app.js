@@ -18,7 +18,7 @@ function isPalindrome(text) {
 
     let invertedText = ''
 
-    for (let i = text.lenght - 1; i >= 0; i--) {
+    for (let i = text.length - 1; i >= 0; i--) {
 
         const char = text.charAt(i)
         console.log(char)
